@@ -1,5 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
 *{
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+p,h1,h2,h3,h4,h5,h6,li,a,span{
+    font-family: 'ABeeZee', sans-serif;
+
+    font-style: italic;
+    margin: 0px;
+}
+nav .left{
+    display: flex;
+    padding-left: 50px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+nav .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+}
+nav .logo p{
+    margin:0px;
+    border-right: 1px solid #DADADA;
+    padding: 10px;
+    padding-left: 0px;
+
+}
+nav .left img{
+    padding: 10px;
+}
+nav .right{
+    padding:0px  120px;
+}
+.special-section{
+    padding: 10px;
+    background: var(--primaryskyblue, #2F80ED);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
-    padding: 0;
+
+}
+.special-section p{
+    margin: 0;
+    font-size: 14px;
+
+}
+.banner{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+.banner .left{
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.banner .item .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+.banner .item .icon-1{
+    background:#FFE1DF;
+    border-radius: 50%;
+}
+.banner .item .icon-3{
+    background:#DFFFE4;
+    border-radius: 50%;
+}
+.banner .highlights{
+    display: flex;
+    gap: 30px;
+    border-radius: 8px;
+    border: 1px solid #E2E2E2;
+    background: #FFF;
+    box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+}
+.banner .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+section .main-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 18px;
+    background: #FFF;
+    box-shadow: 0px 25px 54px 0px rgba(0, 0, 0, 0.12);
+    padding: 28px;
+
+}
+.banner .main-form .apply-btn{
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px;
+    background: var(--New, linear-gradient(277deg, #992FED 0%, #2F80ED 100%));
+}
+.banner .main-form{
+    text-align: center;
+}
+.banner .main-form a{
+    text-decoration: none;
+}
+.banner .main-form .inp-box{
+    border-radius: 8px;
+    background: #FAFAFA;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.banner .main-form .inp-box input{
+    border: none;
+    background: #FAFAFA;
+}
+.banner .left h1 span{
+    color: var(--primaryskyblue, #2F80ED);
+}
+.banner .love{
+    border-radius: 23px;
+    padding: 10px;
+    background: #FFF;
+    box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.12);
+    width: fit-content;
+    margin-top: 50px;
 }
